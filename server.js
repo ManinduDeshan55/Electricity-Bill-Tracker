@@ -7,7 +7,8 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-
+const readingRoutes = require('./routes/readings');
+app.use('/api/readings', readingRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'Electricity Bill Tracker API is running 🔌' });
