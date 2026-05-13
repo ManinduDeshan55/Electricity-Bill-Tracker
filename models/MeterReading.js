@@ -26,7 +26,8 @@ const meterReadingSchema = new mongoose.Schema({
   },
   ratePerUnit: {
     type: Number,
-  },
+    default: 10
+},
   estimatedBill: {
     type: Number
   },
