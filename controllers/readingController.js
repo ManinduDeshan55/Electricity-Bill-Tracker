@@ -89,7 +89,7 @@ exports.getUserSummary = async (req, res) => {
       return res.status(404).json({ success: false, message: 'No data found for this user' });
     }
 
-    const totalUnits = readings.reduce((sum, r) => sum + r.units, 0);
+    const totalUnits = readings.reduce((sum, r) => sum + r.unitsConsumed, 0);
     const totalBill  = readings.reduce((sum, r) => sum + r.estimatedBill, 0);
 
     res.status(200).json({
