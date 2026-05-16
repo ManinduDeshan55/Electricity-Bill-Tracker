@@ -37,11 +37,9 @@ const meterReadingSchema = new mongoose.Schema({
   }
 }, { timestamps: true });
 
-
-meterReadingSchema.pre('save', function (next) {
+meterReadingSchema.pre('save', async function () {
   this.unitsConsumed = this.currentUnits - this.previousUnits;
   this.estimatedBill = this.unitsConsumed * this.ratePerUnit;
-  next();
 });
 
 module.exports = mongoose.model('MeterReading', meterReadingSchema);
