@@ -330,6 +330,34 @@ You should see:
 Use **Postman** to test all the API endpoints listed above.
 
 ---
+## 📸 Screenshots
+
+### Postman - Add Reading (POST)
+![Post Reading](screenshots/First%20Post%20Data.png)
+
+### Postman - Get All Readings
+![All Readings](screenshots/Getting%20All%20Readings.png)
+
+### Postman - Get User Readings
+![User Readings](screenshots/Getting%20readings%20for%20one%20user.png)
+
+### Postman - User Summary Stats
+![Summary Stats](screenshots/Getting%20a%20Users%20summary%20stats.png)
+
+### Postman - Update Reading
+![Update](screenshots/Updating%20a%20reading.png)
+
+### Postman - Delete Reading
+![Delete](screenshots/Deleting%20a%20reading.png)
+
+### Frontend - Dashboard
+![Dashboard](screenshots/Frontend%20Dashboard%20with%20chart.png)
+
+### Frontend - All Readings
+![All Readings Table](screenshots/Frontend%20All%20Readings%20table.png)
+
+### Frontend - User Summary
+![User Summary](screenshots/Frontend%20User%20Summary%20with%20bar%20chart.png)
 
 ## 👨‍💻 Author
 
